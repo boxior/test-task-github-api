@@ -16,16 +16,16 @@ const {Meta} = Card;
 const UserCard = ({user}) => {
     const {data, isLoading, error} = user;
 
-    if (!isLoading && _.isEmpty(user.data)) {
-        return null;
-    }
-
     if (!isLoading && !!error) {
         return (
             <div className={styles.wrap}>
                 <Empty />
             </div>
         );
+    }
+
+    if (!isLoading && _.isEmpty(user.data)) {
+        return null;
     }
 
     return (
