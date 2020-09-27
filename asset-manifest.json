@@ -1,0 +1,40 @@
+{
+  "files": {
+    "static/js/0.24f50f86.chunk.js": "/test-task-github-api/static/js/0.24f50f86.chunk.js",
+    "static/js/0.24f50f86.chunk.js.map": "/test-task-github-api/static/js/0.24f50f86.chunk.js.map",
+    "main.css": "/test-task-github-api/static/css/main.24ed6042.chunk.css",
+    "main.js": "/test-task-github-api/static/js/main.2b34559e.chunk.js",
+    "main.js.map": "/test-task-github-api/static/js/main.2b34559e.chunk.js.map",
+    "runtime-main.js": "/test-task-github-api/static/js/runtime-main.629008cf.js",
+    "runtime-main.js.map": "/test-task-github-api/static/js/runtime-main.629008cf.js.map",
+    "static/js/3.a6dda757.chunk.js": "/test-task-github-api/static/js/3.a6dda757.chunk.js",
+    "static/js/3.a6dda757.chunk.js.map": "/test-task-github-api/static/js/3.a6dda757.chunk.js.map",
+    "static/css/4.cd846464.chunk.css": "/test-task-github-api/static/css/4.cd846464.chunk.css",
+    "static/js/4.79482de6.chunk.js": "/test-task-github-api/static/js/4.79482de6.chunk.js",
+    "static/js/4.79482de6.chunk.js.map": "/test-task-github-api/static/js/4.79482de6.chunk.js.map",
+    "static/js/5.cf3367ac.chunk.js": "/test-task-github-api/static/js/5.cf3367ac.chunk.js",
+    "static/js/5.cf3367ac.chunk.js.map": "/test-task-github-api/static/js/5.cf3367ac.chunk.js.map",
+    "static/css/6.57eb4e20.chunk.css": "/test-task-github-api/static/css/6.57eb4e20.chunk.css",
+    "static/js/6.d0f8a4d1.chunk.js": "/test-task-github-api/static/js/6.d0f8a4d1.chunk.js",
+    "static/js/6.d0f8a4d1.chunk.js.map": "/test-task-github-api/static/js/6.d0f8a4d1.chunk.js.map",
+    "static/css/7.f25c6616.chunk.css": "/test-task-github-api/static/css/7.f25c6616.chunk.css",
+    "static/js/7.51ca4480.chunk.js": "/test-task-github-api/static/js/7.51ca4480.chunk.js",
+    "static/js/7.51ca4480.chunk.js.map": "/test-task-github-api/static/js/7.51ca4480.chunk.js.map",
+    "index.html": "/test-task-github-api/index.html",
+    "precache-manifest.85d82e49f159274c2a8077d1212fa15f.js": "/test-task-github-api/precache-manifest.85d82e49f159274c2a8077d1212fa15f.js",
+    "service-worker.js": "/test-task-github-api/service-worker.js",
+    "static/css/4.cd846464.chunk.css.map": "/test-task-github-api/static/css/4.cd846464.chunk.css.map",
+    "static/css/6.57eb4e20.chunk.css.map": "/test-task-github-api/static/css/6.57eb4e20.chunk.css.map",
+    "static/css/7.f25c6616.chunk.css.map": "/test-task-github-api/static/css/7.f25c6616.chunk.css.map",
+    "static/css/main.24ed6042.chunk.css.map": "/test-task-github-api/static/css/main.24ed6042.chunk.css.map",
+    "static/js/4.79482de6.chunk.js.LICENSE.txt": "/test-task-github-api/static/js/4.79482de6.chunk.js.LICENSE.txt",
+    "static/js/5.cf3367ac.chunk.js.LICENSE.txt": "/test-task-github-api/static/js/5.cf3367ac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.629008cf.js",
+    "static/css/4.cd846464.chunk.css",
+    "static/js/4.79482de6.chunk.js",
+    "static/css/main.24ed6042.chunk.css",
+    "static/js/main.2b34559e.chunk.js"
+  ]
+}
