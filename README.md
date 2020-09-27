@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Github page
 
-http://boxior.github.io/test-task-github-api
+https://boxior.github.io/test-task-github-api
 
 ## Available Scripts
 
