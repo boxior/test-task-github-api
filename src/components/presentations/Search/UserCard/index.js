@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./index.module.scss";
 import {Skeleton, Card, Avatar, Empty} from "antd";
 import UserCardDescription from "./Description";
+import _ from "lodash";
 
 const {Meta} = Card;
 
@@ -14,6 +15,10 @@ const {Meta} = Card;
  */
 const UserCard = ({user}) => {
     const {data, isLoading, error} = user;
+
+    if (!isLoading && _.isEmpty(user.data)) {
+        return null;
+    }
 
     if (!isLoading && !!error) {
         return (
