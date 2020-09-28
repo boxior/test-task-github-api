@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import styles from "./index.module.scss";
 import {Empty, Skeleton, Table} from "antd";
+import {sortNumber, sortString} from "../../../utils/helpers";
 
 const columns = [
     {
@@ -45,7 +46,11 @@ const columns = [
  */
 const UserRepos = ({repos}) => {
     if (!repos.isLoading && !!repos.error) {
-        return <Empty />;
+        return (
+            <div className={styles.page}>
+                <Empty />
+            </div>
+        );
     }
 
     const dataSource = Object.values(repos.data).map(repo => ({...repo, key: repo.id}));
@@ -63,32 +68,4 @@ export default UserRepos;
 
 UserRepos.propTypes = {
     repos: PropTypes.object,
-};
-
-/**
- * Handle string sort
- * @param {object} a
- * @param {object} b
- * @param {string} key
- * @return {number}
- */
-const sortString = ({a, b, key}) => {
-    const aStr = typeof a[key] === "string" ? a[key] : "";
-    const bStr = typeof b[key] === "string" ? b[key] : "";
-
-    return aStr.localeCompare(bStr);
-};
-
-/**
- * Handle number sort
- * @param {object} a
- * @param {object} b
- * @param {string} key
- * @return {number}
- */
-const sortNumber = ({a, b, key}) => {
-    const aNum = typeof a[key] === "number" ? a[key] : 0;
-    const bNum = typeof b[key] === "number" ? b[key] : 0;
-
-    return aNum - bNum;
 };
