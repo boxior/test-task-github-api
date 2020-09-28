@@ -15,8 +15,8 @@ export const apiGetRepos = ({login}) => {
 };
 /**
  *
- * @param {string} searchValue
+ * @param {string} login
  */
-export const apiGetUser = ({searchValue}) => {
-    return axios.get(`https://api.github.com/users/${searchValue}`);
+export const apiGetUser = ({login}) => {
+    return axios.get(`https://api.github.com/users/${login}`);
 };

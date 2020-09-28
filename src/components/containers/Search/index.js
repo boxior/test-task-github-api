@@ -58,7 +58,7 @@ const handleSearchUser = ({setUser, initialStateUser, searchValue}) => {
         return;
     }
     setUser(prev => ({...prev, isLoading: true, error: null}));
-    apiGetUser({searchValue})
+    apiGetUser({login: searchValue})
         .then(res => {
             setUser(prev => ({...prev, isLoading: false, error: null, data: {...prev.data, ...res.data}}));
         })
